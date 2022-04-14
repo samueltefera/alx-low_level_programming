@@ -1,15 +1,14 @@
-#include "holberton.h"
+#include "main.h"
+#include <stdio.h>
+
 /**
- * add - Adds x plus y.
- *@x: First value.
- *@y: Second value.
+ * add -prints add two numbers
+ *@i: print int i
+ *@k: print int k
  * Return: Always 0.
  */
-int add(int x, int y)
+
+int add(int i, int k)
 {
-
-	int suma;
-
-	suma = x + y;
-	return (suma);
+return (i + k);
 }
